@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>suite</artifactId>
+    <groupId>efa.scala</groupId>
+    <version>2.9.2</version>
+  </parent>
+
+  <groupId>efa.scala</groupId>
+  <artifactId>scalazW</artifactId>
+  <version>7.0.0-M3</version>
+  <packaging>nbm</packaging>
+
+  <name>Scalaz Wrapper</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-core_2.9.2</artifactId>
+      <version>7.0.0-M3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-effect_2.9.2</artifactId>
+      <version>7.0.0-M3</version>
+    </dependency>
+    <dependency>
+      <groupId>org.scalaz</groupId>
+      <artifactId>scalaz-scalacheck-binding_2.9.2</artifactId>
+      <version>7.0.0-M3</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>nbm-maven-plugin</artifactId>
+        <configuration>
+          <publicPackages>
+            <publicPackage>scalaz.*</publicPackage>
+          </publicPackages>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
+<!-- vim: set ts=2 sw=2 et: -->

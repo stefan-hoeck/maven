@@ -1,0 +1,30 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>efa.mvn</groupId>
+    <artifactId>scala</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>scala-tools.org</id>
+            <name>Scala-Tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases</url>
+        </repository>
+        <repository> 
+            <id>scala-tools-releases</id> 
+            <name>Scala-Tools Maven2 Repository Releases</name> 
+            <url>http://scala-tools.org/repo-releases</url> 
+        </repository> 
+        <repository> 
+            <id>sonatype-releases</id> 
+            <name>sonatype releases</name> 
+            <url>http://oss.sonatype.org/content/repositories/releases</url> 
+        </repository> 
+    </repositories>
+</project>
+<!-- vim: set ts=2 sw=2 et: -->
