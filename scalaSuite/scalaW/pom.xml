@@ -4,10 +4,10 @@
   <parent>
     <groupId>efa.scala</groupId>
     <artifactId>suite</artifactId>
-    <version>2.9.2</version>
+    <version>3.0.0</version>
   </parent>
   
-  <version>2.9.2</version>
+  <version>3.0.0</version>
   <artifactId>scalaW</artifactId>
   <packaging>nbm</packaging>
 
@@ -17,34 +17,34 @@
     <dependency>
       <groupId>org.scala-lang</groupId>
         <artifactId>scala-library</artifactId>
-        <version>2.9.2</version>
+	<version>${scala.version}</version>
       </dependency>
     <dependency>
       <groupId>org.scala-lang</groupId>
         <artifactId>scala-swing</artifactId>
-        <version>2.9.2</version>
+	<version>${scala.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-core_2.9.2</artifactId>
-      <version>7.0.0-M4</version>
+      <artifactId>scalaz-core_${scala.version}</artifactId>
+      <version>${scalaz.version}</version>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-effect_2.9.2</artifactId>
-      <version>7.0.0-M4</version>
+      <artifactId>scalaz-effect_${scala.version}</artifactId>
+      <version>${scalaz.version}</version>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-scalacheck-binding_2.9.2</artifactId>
-      <version>7.0.0-M4</version>
+      <artifactId>scalaz-scalacheck-binding_${scala.version}</artifactId>
+      <version>${scalaz.version}</version>
     </dependency>
 
     <dependency>
       <groupId>org.scalacheck</groupId>
-      <artifactId>scalacheck_2.9.2</artifactId>
-      <version>1.9</version>
+      <artifactId>scalacheck_${scala.version}</artifactId>
+      <version>${scalacheck.version}</version>
     </dependency>
   </dependencies>
 
