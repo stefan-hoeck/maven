@@ -9,7 +9,7 @@
   </parent>
   <groupId>efa.scala</groupId>
   <artifactId>suite</artifactId>
-  <version>3.0.0</version>
+  <version>3.0.1</version>
   <packaging>pom</packaging>
 
   <name>Scala Suite</name>
@@ -38,14 +38,15 @@
 
   <modules>
     <module>scalaW</module>
+    <module>scalaSwingW</module>
     <module>scalazW</module>
     <module>scalaCheckW</module>
   </modules>
 
   <properties>
-    <scala.version>2.9.2</scala.version>
-    <scalaz.version>7.0.0-M5</scalaz.version>
-    <scalacheck.version>1.9</scalacheck.version>
+    <scala.version>2.10.0-RC5</scala.version>
+    <scalaz.version>7.0.0-M6</scalaz.version>
+    <scalacheck.version>1.10.0</scalacheck.version>
   </properties>
 </project>
 <!-- vim: set ts=2 sw=2 et: -->

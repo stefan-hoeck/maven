@@ -4,10 +4,10 @@
   <parent>
     <groupId>efa.scala</groupId>
     <artifactId>suite</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
   </parent>
 
-  <version>1.9</version>
+  <version>1.10.0</version>
   <artifactId>scalaCheckW</artifactId>
   <packaging>nbm</packaging>
 
