@@ -45,6 +45,9 @@
   </modules>
 
   <properties>
+    <!-- When changing scala.version make sure to adjust efa.nb pom.xml
+         since class files will be stored in a different directory
+         when compiling with sbt -->
     <scala.version>2.10.0-RC5</scala.version>
     <scalaz.version>7.0.0-M6</scalaz.version>
     <scalacheck.version>1.10.0</scalacheck.version>
