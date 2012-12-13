@@ -38,6 +38,7 @@
 
   <modules>
     <module>scalaW</module>
+    <module>scalaAllW</module>
     <module>scalaSwingW</module>
     <module>scalazW</module>
     <module>scalaCheckW</module>

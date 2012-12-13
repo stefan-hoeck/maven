@@ -18,6 +18,17 @@
       <groupId>org.scalacheck</groupId>
       <artifactId>scalacheck_${scala.version}</artifactId>
       <version>${scalacheck.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.scala-lang</groupId>
+          <artifactId>scala-library</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>efa.scala</groupId>
+      <artifactId>scalaW</artifactId>
+      <version>${scala.version}</version>
     </dependency>
   </dependencies>
 

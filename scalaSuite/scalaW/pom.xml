@@ -16,8 +16,8 @@
   <dependencies>
     <dependency>
       <groupId>org.scala-lang</groupId>
-        <artifactId>scala-library</artifactId>
-	<version>${scala.version}</version>
+      <artifactId>scala-library</artifactId>
+      <version>${scala.version}</version>
     </dependency>
   </dependencies>
 

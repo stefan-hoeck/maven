@@ -19,16 +19,56 @@
       <groupId>org.scalaz</groupId>
       <artifactId>scalaz-core_${scala.version}</artifactId>
       <version>${scalaz.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.scala-lang</groupId>
+          <artifactId>scala-library</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.scalacheck</groupId>
+          <artifactId>scalacheck_${scala.version}</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
       <artifactId>scalaz-effect_${scala.version}</artifactId>
       <version>${scalaz.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.scala-lang</groupId>
+          <artifactId>scala-library</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.scalacheck</groupId>
+          <artifactId>scalacheck_${scala.version}</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
       <artifactId>scalaz-scalacheck-binding_${scala.version}</artifactId>
       <version>${scalaz.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.scala-lang</groupId>
+          <artifactId>scala-library</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.scalacheck</groupId>
+          <artifactId>scalacheck_${scala.version}</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>efa.scala</groupId>
+      <artifactId>scalaW</artifactId>
+      <version>${scala.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>efa.scala</groupId>
+      <artifactId>scalaCheckW</artifactId>
+      <version>${scalacheck.version}</version>
     </dependency>
   </dependencies>
 
