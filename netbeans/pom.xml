@@ -7,7 +7,7 @@
 
   <properties>
     <netbeans.version>RELEASE71</netbeans.version>
-    <scala.version>2.10.0</scala.version>
+    <scala.version>2.10</scala.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
