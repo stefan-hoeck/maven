@@ -9,7 +9,7 @@
   </parent>
   <groupId>efa.scala</groupId>
   <artifactId>suite</artifactId>
-  <version>3.0.1</version>
+  <version>3.0.2</version>
   <packaging>pom</packaging>
 
   <name>Scala Suite</name>
@@ -48,8 +48,9 @@
     <!-- When changing scala.version make sure to adjust efa.nb pom.xml
          since class files will be stored in a different directory
          when compiling with sbt -->
-    <scala.version>2.10.0-RC5</scala.version>
-    <scalaz.version>7.0.0-M6</scalaz.version>
+    <scala.version>2.10.0</scala.version>
+    <scalaBin.version>2.10</scalaBin.version>
+    <scalaz.version>7.0.0-M7</scalaz.version>
     <scalacheck.version>1.10.0</scalacheck.version>
   </properties>
 </project>

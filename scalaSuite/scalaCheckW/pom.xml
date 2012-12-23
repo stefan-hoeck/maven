@@ -4,7 +4,7 @@
   <parent>
     <groupId>efa.scala</groupId>
     <artifactId>suite</artifactId>
-    <version>3.0.1</version>
+    <version>3.0.2</version>
   </parent>
 
   <version>1.10.0</version>
@@ -16,7 +16,7 @@
   <dependencies>
     <dependency>
       <groupId>org.scalacheck</groupId>
-      <artifactId>scalacheck_${scala.version}</artifactId>
+      <artifactId>scalacheck_${scalaBin.version}</artifactId>
       <version>${scalacheck.version}</version>
       <exclusions>
         <exclusion>

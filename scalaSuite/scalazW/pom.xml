@@ -4,20 +4,20 @@
   <parent>
     <artifactId>suite</artifactId>
     <groupId>efa.scala</groupId>
-    <version>3.0.1</version>
+    <version>3.0.2</version>
   </parent>
 
   <groupId>efa.scala</groupId>
   <artifactId>scalazW</artifactId>
   <packaging>nbm</packaging>
-  <version>7.0.0-M6</version>
+  <version>7.0.0-M7</version>
 
   <name>Scalaz Wrapper</name>
 
   <dependencies>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-core_${scala.version}</artifactId>
+      <artifactId>scalaz-core_${scalaBin.version}</artifactId>
       <version>${scalaz.version}</version>
       <exclusions>
         <exclusion>
@@ -26,13 +26,13 @@
         </exclusion>
         <exclusion>
           <groupId>org.scalacheck</groupId>
-          <artifactId>scalacheck_${scala.version}</artifactId>
+          <artifactId>scalacheck_${scalaBin.version}</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-effect_${scala.version}</artifactId>
+      <artifactId>scalaz-effect_${scalaBin.version}</artifactId>
       <version>${scalaz.version}</version>
       <exclusions>
         <exclusion>
@@ -41,13 +41,13 @@
         </exclusion>
         <exclusion>
           <groupId>org.scalacheck</groupId>
-          <artifactId>scalacheck_${scala.version}</artifactId>
+          <artifactId>scalacheck_${scalaBin.version}</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-scalacheck-binding_${scala.version}</artifactId>
+      <artifactId>scalaz-scalacheck-binding_${scalaBin.version}</artifactId>
       <version>${scalaz.version}</version>
       <exclusions>
         <exclusion>
@@ -56,7 +56,7 @@
         </exclusion>
         <exclusion>
           <groupId>org.scalacheck</groupId>
-          <artifactId>scalacheck_${scala.version}</artifactId>
+          <artifactId>scalacheck_${scalaBin.version}</artifactId>
         </exclusion>
       </exclusions>
     </dependency>

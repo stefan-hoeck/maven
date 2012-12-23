@@ -4,7 +4,7 @@
   <parent>
     <groupId>efa.scala</groupId>
     <artifactId>suite</artifactId>
-    <version>3.0.1</version>
+    <version>3.0.2</version>
   </parent>
   
   <artifactId>scalaAllW</artifactId>
@@ -20,22 +20,22 @@
     </dependency>
     <dependency>
       <groupId>org.scalacheck</groupId>
-      <artifactId>scalacheck_${scala.version}</artifactId>
+      <artifactId>scalacheck_${scalaBin.version}</artifactId>
       <version>${scalacheck.version}</version>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-core_${scala.version}</artifactId>
+      <artifactId>scalaz-core_${scalaBin.version}</artifactId>
       <version>${scalaz.version}</version>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-effect_${scala.version}</artifactId>
+      <artifactId>scalaz-effect_${scalaBin.version}</artifactId>
       <version>${scalaz.version}</version>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-scalacheck-binding_${scala.version}</artifactId>
+      <artifactId>scalaz-scalacheck-binding_${scalaBin.version}</artifactId>
       <version>${scalaz.version}</version>
     </dependency>
     <dependency>
