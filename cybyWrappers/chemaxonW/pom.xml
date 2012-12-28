@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>external</artifactId>
+    <groupId>cyby</groupId>
+    <version>3.0</version>
+  </parent>
+
+  <artifactId>chemaxonW</artifactId>
+  <packaging>nbm</packaging>
+  <version>5.11.4</version>
+
+  <name>chemaxonW</name>
+
+  <repositories>
+    <repository>
+      <id>jni-inchi</id>
+      <name>JNI-InChI Maven Repository</name>
+      <url>http://jni-inchi.sourceforge.net/m2repo</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>chemaxon</groupId>
+      <artifactId>jchem</artifactId>
+      <version>5.11.4</version>
+    </dependency>
+    <dependency>
+      <groupId>dom4j</groupId>
+      <artifactId>dom4j</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+    <dependency>
+      <groupId>jaxen</groupId>
+      <artifactId>jaxen</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>aloe</groupId>
+      <artifactId>aloe</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>jgoodies</groupId>
+      <artifactId>looks</artifactId>
+      <version>1.2.2</version>
+    </dependency>
+    <dependency>
+      <groupId>jgoodies</groupId>
+      <artifactId>forms</artifactId>
+      <version>1.0.5</version>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.jni-inchi</groupId>
+      <artifactId>jni-inchi</artifactId>
+      <version>0.7</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>nbm-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <publicPackages>
+            <publicPackage>chemaxon.*</publicPackage>
+          </publicPackages>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>2.3.1</version>
+        <configuration>
+          <useDefaultManifestFile>true</useDefaultManifestFile>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
