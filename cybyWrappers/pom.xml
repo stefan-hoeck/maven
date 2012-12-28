@@ -42,5 +42,6 @@
 
   <modules>
     <module>chemaxonW</module>
+    <module>jerseyW</module>
   </modules>
 </project>
