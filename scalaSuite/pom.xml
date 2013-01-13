@@ -37,6 +37,7 @@
   </build>
 
   <modules>
+    <module>akkaW</module>
     <module>scalaW</module>
     <module>scalaAllW</module>
     <module>scalaSwingW</module>
@@ -52,6 +53,7 @@
     <scalaBin.version>2.10</scalaBin.version>
     <scalaz.version>7.0.0-M7</scalaz.version>
     <scalacheck.version>1.10.0</scalacheck.version>
+    <akka.version>2.1.0</akka.version>
   </properties>
 </project>
 <!-- vim: set ts=2 sw=2 et: -->
