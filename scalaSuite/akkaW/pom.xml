@@ -12,7 +12,7 @@
   <packaging>nbm</packaging>
   <version>2.1.0</version>
 
-  <name>Scalaz Wrapper</name>
+  <name>Akka Wrapper</name>
 
   <dependencies>
     <dependency>
@@ -52,6 +52,8 @@
         <configuration>
           <publicPackages>
             <publicPackage>akka.*</publicPackage>
+            <!-- for config package -->
+            <publicPackage>com.typesafe.*</publicPackage>
           </publicPackages>
         </configuration>
       </plugin>
