@@ -16,7 +16,7 @@
   <dependencies>
     <dependency>
       <groupId>org.scalacheck</groupId>
-      <artifactId>scalacheck_${scalaBin.version}</artifactId>
+      <artifactId>scalacheck_2.10</artifactId>
       <version>${scalacheck.version}</version>
       <exclusions>
         <exclusion>

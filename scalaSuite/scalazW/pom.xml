@@ -17,7 +17,7 @@
   <dependencies>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-core_${scalaBin.version}</artifactId>
+      <artifactId>scalaz-core_2.10</artifactId>
       <version>${scalaz.version}</version>
       <exclusions>
         <exclusion>
@@ -26,13 +26,13 @@
         </exclusion>
         <exclusion>
           <groupId>org.scalacheck</groupId>
-          <artifactId>scalacheck_${scalaBin.version}</artifactId>
+          <artifactId>scalacheck_2.10}</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
     <dependency>
       <groupId>org.scalaz</groupId>
-      <artifactId>scalaz-effect_${scalaBin.version}</artifactId>
+      <artifactId>scalaz-effect_2.10</artifactId>
       <version>${scalaz.version}</version>
       <exclusions>
         <exclusion>
@@ -41,7 +41,7 @@
         </exclusion>
         <exclusion>
           <groupId>org.scalacheck</groupId>
-          <artifactId>scalacheck_${scalaBin.version}</artifactId>
+          <artifactId>scalacheck_2.10</artifactId>
         </exclusion>
       </exclusions>
     </dependency>

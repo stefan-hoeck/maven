@@ -17,7 +17,7 @@
   <dependencies>
     <dependency>
       <groupId>com.typesafe.akka</groupId>
-      <artifactId>akka-actor_${scalaBin.version}</artifactId>
+      <artifactId>akka-actor_2.10</artifactId>
       <version>${akka.version}</version>
       <exclusions>
         <exclusion>
@@ -28,7 +28,7 @@
     </dependency>
     <dependency>
       <groupId>com.typesafe.akka</groupId>
-      <artifactId>akka-remote_${scalaBin.version}</artifactId>
+      <artifactId>akka-remote_2.10</artifactId>
       <version>${akka.version}</version>
       <exclusions>
         <exclusion>
