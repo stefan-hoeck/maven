@@ -42,6 +42,7 @@
     <module>scalaSwingW</module>
     <module>scalazW</module>
     <module>scalaCheckW</module>
+    <module>shapelessW</module>
   </modules>
 
   <properties>
@@ -53,6 +54,7 @@
     <scalaz.version>7.0.0-M7</scalaz.version>
     <scalacheck.version>1.10.0</scalacheck.version>
     <akka.version>2.1.0</akka.version>
+    <shapeless.version>1.2.3</shapeless.version>
   </properties>
 </project>
 <!-- vim: set ts=2 sw=2 et: -->
