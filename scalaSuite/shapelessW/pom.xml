@@ -26,6 +26,11 @@
         </exclusion>
       </exclusions>
     </dependency>
+    <dependency>
+      <groupId>efa.scala</groupId>
+      <artifactId>scalaW</artifactId>
+      <version>${scala.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
