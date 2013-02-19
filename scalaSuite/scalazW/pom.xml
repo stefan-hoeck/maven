@@ -10,7 +10,7 @@
   <groupId>efa.scala</groupId>
   <artifactId>scalazW</artifactId>
   <packaging>nbm</packaging>
-  <version>7.0.0-M7</version>
+  <version>7.0.0-M8</version>
 
   <name>Scalaz Wrapper</name>
 
