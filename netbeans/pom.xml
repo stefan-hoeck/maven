@@ -2,11 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>efa.mvn</groupId>
   <artifactId>nb</artifactId>
-  <version>7.1.2</version>
+  <version>7.4.0</version>
   <packaging>pom</packaging>
 
   <properties>
-    <netbeans.version>RELEASE71</netbeans.version>
+    <netbeans.version>RELEASE74</netbeans.version>
     <scala.version>2.10</scala.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -124,7 +124,7 @@
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>nbm-maven-plugin</artifactId>
-          <version>3.6</version>
+          <version>3.8.1</version>
           <extensions>true</extensions>
         </plugin>
         <plugin>
