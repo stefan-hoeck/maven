@@ -7,7 +7,7 @@
 
   <properties>
     <netbeans.version>RELEASE74</netbeans.version>
-    <scala.version>2.10</scala.version>
+    <scala.baseversion>2.10</scala.baseversion>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -204,8 +204,8 @@
         </configuration>
       </plugin>
     </plugins>
-    <outputDirectory>target/scala-${scala.version}/classes</outputDirectory>
-    <testOutputDirectory>target/scala-${scala.version}/test-classes</testOutputDirectory>
+    <outputDirectory>target/scala-${scala.baseversion}/classes</outputDirectory>
+    <testOutputDirectory>target/scala-${scala.baseversion}/test-classes</testOutputDirectory>
     <sourceDirectory>src/main/scala</sourceDirectory>
     <testSourceDirectory>src/test/scala</testSourceDirectory>
   </build>
