@@ -2,12 +2,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>efa.mvn</groupId>
   <artifactId>nb</artifactId>
-  <version>7.4.0</version>
+  <version>8.0.0</version>
   <packaging>pom</packaging>
 
   <properties>
-    <netbeans.version>RELEASE74</netbeans.version>
-    <scala.baseversion>2.10</scala.baseversion>
+    <netbeans.version>RELEASE80</netbeans.version>
+    <scala.baseversion>2.11</scala.baseversion>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
