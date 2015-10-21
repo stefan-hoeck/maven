@@ -9,7 +9,7 @@
 
   <artifactId>chemaxonW</artifactId>
   <packaging>nbm</packaging>
-  <version>5.11.5</version>
+  <version>15.10.19</version>
 
   <name>chemaxonW</name>
 
@@ -25,7 +25,7 @@
     <dependency>
       <groupId>chemaxon</groupId>
       <artifactId>jchem</artifactId>
-      <version>5.11.5</version>
+      <version>15.10.19</version>
     </dependency>
     <dependency>
       <groupId>dom4j</groupId>
